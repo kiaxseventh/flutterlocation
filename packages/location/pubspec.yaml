@@ -34,3 +34,7 @@ dev_dependencies:
     sdk: flutter
   leancode_lint: ^13.0.0
   mockito: ^5.4.4
+
+dependency_overrides:
+  js: ^0.7.1
+
