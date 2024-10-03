@@ -26,7 +26,9 @@ dependencies:
   flutter:
     sdk: flutter
   location_platform_interface: ^5.0.0
-  location_web: ^5.0.3
+  location_web:
+    path: ../location_web
+  
 
 
 dependency_overrides:
