@@ -27,6 +27,11 @@ dependencies:
     sdk: flutter
   location_platform_interface: ^5.0.0
   location_web: ^5.0.3
+
+
+dependency_overrides:
+  js: ^0.7.1
+  
 dev_dependencies:
   async: ^2.11.0
   build_runner: ^2.4.11
@@ -35,6 +40,4 @@ dev_dependencies:
   leancode_lint: ^13.0.0
   mockito: ^5.4.4
 
-dependency_overrides:
-  js: ^0.7.1
 
