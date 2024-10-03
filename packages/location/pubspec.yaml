@@ -20,13 +20,13 @@ flutter:
       macos:
         pluginClass: LocationPlugin
       web:
-        default_package: ../../location_web
+        default_package: location_web
 
 dependencies:
   flutter:
     sdk: flutter
   location_platform_interface: ^5.0.0
-  location_web: ../../location_web
+  location_web: location_web
 dev_dependencies:
   async: ^2.11.0
   build_runner: ^2.4.11
